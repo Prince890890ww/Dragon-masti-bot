@@ -17,7 +17,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl = ["Han Tumhari Bhan Hai Shifa 😌" , " Prince Ke Sath Busy Haii 🤭" , "Usko Maat Bula Prince Teri Mar Lega 🥲" , " Vo Sirf Prince Ki Hai Dost" , "Ja Muh Dhoke Aa Pehle" , " Shifa Shifa Maat Karr Pel Dunga 😒" , " Shifa Teri Bhan He Samjha 😚" , " Shifa Busy Hai" , " Shifa Prince Ke Inbox Hai" , "Shifa Ko Love You Prince Ki Tarf Se 🤫🤭" , "Shifa Shifa Mat Kar Wrna next Mesg gali Wala Hoga Mera 😌"];
+  var tl = ["Han Tumhari Bhan Hai Shifa 😌" , " Prince Ke Sath Busy Haii 🤭" , "Usko Maat Bula Prince Teri Mar Lega 🥲" , " Vo Sirf Prince Ki Hai Dost" , "Ja Muh Dhoke Aa Pehle" , " Shifa Shifa Maat Karr Pel Dunga 😒" , " Shifa Teri Bhan He Samjha 😚" , " Shifa Busy Hai" , " Shifa Prince Ke Inbox Hai" , "Shifa Ko Love You Prince Ki Tarf Se 🤫🤭" , "Shifa Shifa Mat Kar Wrna next Mesg gali Wala Hoga Mera 😌" , "Aaaa Thooo 😂😂😂" , "Tere Muhh Me Du Kya 🙄 Lolipop" , "Bot Se Chudna Cahta Haii Kya Lodu" , "Abe Gandu Bass Karde" , "Abe Kalu Sale" , "Takle Uncle 🙄" , "Tere Pichwade Me Sap 😒" , "Band Kar Band Kar Bhotni Ke😠" , "Han Prince Ki Jaan Hai Shifa 🤫" , "Luli Fek Maruga Lodu" , "Tu Zara Sa Gandu Haii Kya ☹️"];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "chutiya shifa") || (event.body.toLowerCase() == "chutiye shifa") || (event.body.toLowerCase() == "chumtiya shifa") || (event.body.toLowerCase() == "chumtiye shifa")) {
@@ -49,14 +49,14 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "morning") || (event.body.toLowerCase() == "good morning")) {
-     return api.sendMessage("Ꮆɵɵɗ Ɱ❍ɽƞɪɪƞɠ Ɛⱱɛɽɣ❍ƞɛ🌅, Ƭɽɣ ꌗɵɱɛ Cɵffɛɛ ❍ɽ Ƭɛɑ Ƭ❍ Ꮗɑҡɛ Uƥ☕✨💫", threadID);
+     return api.sendMessage("👀👀", threadID);
    };
 
    if ((event.body.toLowerCase() == "anyone") || (event.body.toLowerCase() == "any")) {
      return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "priyansh rajput") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "prince")) {
+   if ((event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "priyansh rajput") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "Hema")) {
      return api.sendMessage( "Busy HoGa Work Me Main t0o Hun Naw 😘",threadID);
 
        
